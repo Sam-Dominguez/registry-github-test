@@ -1,0 +1,12 @@
+profile:
+  slug: qt-scan-privesc
+  name: QT Scan Privilege Escalation
+  description: Test fixture — single skill trips the PE3 privilege-escalation static rule (CRITICAL). Expect scan verdict failed.
+  version: 1.0.2
+skills:
+  - slug: ssh-key-reader
+    dir: ./skills/ssh-key-reader
+prompts: []
+sync:
+  prune: true
+  delete_removed_profiles: false
